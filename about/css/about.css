@@ -1,0 +1,16 @@
+
+
+.main-content article{
+    padding: 40px 20px 0 20px;
+}
+.main-content article img{
+  float: left;
+  margin: 0 32px 0 0;
+}
+.main-content article p{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+  text-indent: 2em;
+  line-height: 24px;
+}

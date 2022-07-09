@@ -1,0 +1,102 @@
+/*.container-content .main-content .article-title{
+  width: 970px;
+  height: 140px;
+  border-bottom: 1px dashed #d3d3d3;
+  margin: 0 auto;
+  float: left;
+  padding-bottom: 10px;
+}*/
+.container-content .main-content .article-title h2{
+  font: 24px 微软雅黑;
+  margin: 40px 0 50px;
+  text-align: center;
+  color: #333;
+}
+.source-share{
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #d3d3d3;
+  font-size: 12px;
+  color: #999;
+}
+.source-share .source{
+  float: left;
+}
+.source-share .share{
+  float: right;
+}
+.source-share .share a{
+  color: #999;
+}
+.source-share .share a:hover{
+  color: #01a1ff;
+}
+.source-share .share a i{
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.source-share .share a:first-child i{
+  background-image: url("../imgs/icon_01.png");
+}
+.source-share .share a:nth-child(2) i{
+  background-image: url("../imgs/icon_02.png");
+}
+.source-share .share a:nth-child(3) i{
+  background-image: url("../imgs/icon_03.png");
+}
+.source-share .share a:nth-child(4) i{
+  background-image: url("../imgs/icon_04.png");
+}
+.latest-news article{
+  padding: 30px 20px 60px;
+  border-bottom: 1px dotted #d3d3d3;
+}
+.latest-news article p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  text-indent: 2em;
+  margin-bottom: 20px;
+}
+.latest-news article p strong{
+  font-weight: bold;
+  color: #000;
+}
+.latest-news article figure{
+  text-align: center;
+}
+.latest-news article figure p{
+  font-size: 12px;
+  color: #333;
+}
+.latest-news article h3 {
+  text-indent: 2em;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.latest-news section .news-article-footer{
+  overflow: hidden;
+  margin-top: 15px;
+}
+.news-article-footer p{
+  font-size: 12px;
+  width: auto;
+}
+.news-article-footer .news-prev{
+  float: left;
+}
+.news-article-footer .news-next{
+  float: right;
+}
+.news-article-footer p a{
+  color: #999;
+}
+.news-article-footer p a:hover{
+  color: #01a1ff;
+}
+

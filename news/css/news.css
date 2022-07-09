@@ -1,0 +1,105 @@
+.main-content .news-list{
+  margin: 40px 10px 30px 20px;
+  width: 930px;
+  box-sizing: border-box;
+}
+.news-list li{
+  overflow: hidden;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.news-list li .news-item-date{
+  float: left;
+  width: 108px;
+  height: 100px;
+  background: url("../imgs/news_02.jpg");
+  margin-right: 15px;
+  text-align: center;
+}
+.news-list li:hover .news-item-date,.news-list li.news-list-active .news-item-date{
+  background: url("../imgs/news_01.jpg");
+}
+.news-item-date span{
+  display: block;
+  color: #fff;
+}
+.news-item-date .day{
+  font: bolder 50.28px Arial;
+  height: 70px;
+  padding-top: 13px;
+  box-sizing: border-box;
+}
+.news-item-date .year-month{
+  width: 66px;
+  height: 30px;
+  padding-top: 7px;
+  box-sizing: border-box;
+  font: 13.06px 黑体;
+  border-top: 1px solid #fff;
+  margin: 0 auto;
+}
+.news-list li .news-item-profi{
+  width: 800px;
+  display: block;
+  float: left;
+}
+
+.news-item-profi span{
+  display: block;
+}
+.news-item-profi .news-h2{
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  margin: 7px 0 10px;
+}
+.news-list li:hover .news-item-profi .news-h2,.news-list li.news-list-active .news-item-profi .news-h2{
+  color: #01a1ff;
+}
+.news-item-profi .news-p{
+  font-size: 14px;
+  line-height: 24px;
+  text-indent: 2em;
+  color: #666;
+}
+/*aside search*/
+/*
+.container-content aside{
+  border: none;
+}
+.container-content .aside-top{
+  border: 1px solid #01a1ff;
+}
+.container-content .aside-search{
+  margin-top: 40px;
+  border: 1px solid #01a1ff;
+}
+.container-content form input{
+  outline: none;
+  width: 170px;
+  margin: 10px 0 10px 10px;
+  height: 40px;
+  border: 1px solid #999;
+  background: url("../imgs/icon-search.png")  140px center no-repeat;
+}
+*/
+.aside{
+  float: left;
+}
+.aside aside{
+  clear: both;
+}
+.aside aside:first-child{
+  margin-bottom: 40px;
+}
+.aside aside:last-child form input{
+  outline: none;
+  width: 170px;
+  margin: 10px 0 10px 10px;
+  height: 40px;
+  border: 1px solid #999;
+  background: url("../imgs/icon-search.png")  140px center no-repeat;
+  padding-right: 30px;
+  color: #666;
+}
+

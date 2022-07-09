@@ -1,0 +1,20 @@
+.questions{
+  margin: 0 20px;
+}
+.questions h2{
+  font: bold 24px 微软雅黑;
+  text-align: center;
+  margin: 47px 0;
+  color: #333;
+}
+.questions strong,.questions ol li{
+  display: block;
+  font: 14px 宋体;
+  color: #333;
+  text-indent: 2em;
+  margin-bottom: 20px;
+}
+
+.questions ol li{
+  color: #666;
+}

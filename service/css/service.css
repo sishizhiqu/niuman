@@ -1,0 +1,48 @@
+.services-list{
+  margin: 40px 0 22px 20px;
+}
+.services-list li{
+  margin-bottom: 18px;
+  /*list-style-type: disc;
+  list-style-position: inside;*/
+  position: relative;
+  /*display: flex;*/
+}
+.services-list li:before{
+  content:'·';
+  /*background-color: #fff;*/
+  padding-right: 3px;
+  color: #666;
+}
+.services-list span{
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+}
+.services-list .service-item{
+  position: absolute;
+  left: 4px;
+  padding: 0 5px;
+  z-index: 10;
+  background-color: #fff;
+
+}
+.services-list .line{
+  border-top: 1px dashed #666;
+  position: absolute;
+  top: 7px;
+  width: 100%;
+  /*flex: 1;*/
+}
+.services-list .service-date{
+  position: absolute;
+  right: -5px;
+  background-color: #fff;
+  padding-left: 5px;
+  text-align: right;
+}
+.services-list li:hover span{
+  color: #01a1ff;
+  border-color: #01a1ff;
+}
+
